@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/menu"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_periodo1"
+        android:layout_width="365dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="312dp"
+        android:backgroundTint="#00DF1414"
+        android:onClick="periodo1"
+        android:text="a"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_periodo2"
+        android:layout_width="364dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#00EC1414"
+        android:onClick="periodo2"
+        android:text="b"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_periodo1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_futuro"
+        android:layout_width="357dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#00CD2828"
+        android:onClick="futuro"
+        android:text="c"
+        android:textColor="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_periodo2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_jogo"
+        android:layout_width="176dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/aclonica"
+        android:text="ADV - ATRAVÉS DO TEMPO"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_futuro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

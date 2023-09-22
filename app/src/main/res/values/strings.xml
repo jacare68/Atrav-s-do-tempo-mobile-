@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AtravesDoTempo</string>
+    <string name="text_tela_inicial">ADTMenu</string>
+    <string name="text_categoria1">Periodo 1 - Período cretáceo</string>
+    <string name="text_categoria2">Periodo 2 - Egito Antigo</string>
+    <string name="text_categoria3">Periodo 3 -Futuro</string>
+    <string name="text_jogo">ADT</string>
+    <string name="text_titulo1">Período cretáceo</string>
+    <string name="botao_web">Video sobre o periodo</string>
+    <string name="text_voltar3">Voltar</string>
+    <string name="text_titulo2">Egito Antigo</string>
+    <string name="botao_web2">Video sobre o periodo</string>
+    <string name="text_voltar4">Voltar</string>
+    <string name="text_titulo5">Futuro</string>
+    <string name="text_web3">Video sobre o periodo</string>
+    <string name="botao_voltar5">Voltar</string>
+</resources>
