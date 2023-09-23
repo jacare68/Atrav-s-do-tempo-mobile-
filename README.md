@@ -29,7 +29,7 @@ Tela sobre a terceira fase:
 ![image](https://github.com/jacare68/Atrav-s-do-tempo-mobile-/assets/101645810/9817a3f7-60c2-4143-b826-cd2017dd157e)
 
 Link do funcionamento do video:
-<br.
+<br>
 https://youtu.be/1ckppXdHgrw
 
 
